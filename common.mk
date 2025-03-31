@@ -93,6 +93,9 @@ $(call soong_config_set_bool,camera,override_format_from_reserved,true)
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
+# Disable Matlog
+TARGET_DISABLE_MATLOG := true
+
 # Display
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.allocator-service \
