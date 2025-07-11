@@ -24,5 +24,3 @@ ro.media.recorder-max-base-layer-fps=60
 # Netmgr
 persist.vendor.data.mode=concurrent
 
-# WFD
-persist.debug.wfd.enable=1
