@@ -93,7 +93,6 @@ BOARD_KERNEL_CMDLINE := \
     firmware_class.path=/vendor/firmware
 
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6375
-TARGET_KERNEL_NO_GCC := true
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
