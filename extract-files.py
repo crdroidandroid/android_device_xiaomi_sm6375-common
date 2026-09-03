@@ -50,6 +50,8 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
     'vendor/lib64/libqcrilNr.so': blob_fixup()
         .replace_needed('ro.ril.oem', ''),
+    'vendor/etc/msm_irqbalance.conf': blob_fixup()
+        .regex_replace('IGNORED_IRQ=19,21,38$', 'IGNORED_IRQ=19,21,38,209,218'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
