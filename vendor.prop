@@ -128,6 +128,9 @@ vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.line
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
+# Darkmoon 
+debug.renderengine.blur_algorithm=kawase_darkmoon
+
 # Display
 debug.sf.frame_rate_multiple_threshold=120
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
